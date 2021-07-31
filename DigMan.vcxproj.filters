@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{752ce766-ae46-432a-b4be-28ea0b46f956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tasks">
+      <UniqueIdentifier>{2a7ccd29-539c-4c39-8525-c5de380c6443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{26deb09f-77a3-450b-8d90-8580a77a1c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Conf">
+      <UniqueIdentifier>{ecef82fc-1493-400e-b14d-451c2c5b5d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{cbe163f3-8258-4bb8-b6f1-037a26705791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\lcd">
+      <UniqueIdentifier>{351326bd-d5a9-4617-9f3b-248d5bb899b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DigMan.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.DigMan.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="__vm\.src.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="__vm\.Манометр.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Assert.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ConditionWrapper.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Critical.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressTask.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimize.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="PeriodicTimer.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="PlacementNew.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticAllocActivator.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskBase.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskList.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskQueue.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitHandles.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitObject.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Kalman.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Average.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maybe.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Median.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerTask.h">
+      <Filter>Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundTask.h">
+      <Filter>Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameters.h">
+      <Filter>Conf</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Conf</Filter>
+    </ClInclude>
+    <ClInclude Include="LcdIoTask.h">
+      <Filter>Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="LcdIo.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Pins.h">
+      <Filter>Conf</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\LCD\LiquidCrystal_I2C.h">
+      <Filter>libs\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonTask.h">
+      <Filter>Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="BarometerTask.h">
+      <Filter>Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="BatteryTask.h">
+      <Filter>Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStorage.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="abort.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduler.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskBase.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskQueue.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitHandles.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundTask.cpp">
+      <Filter>Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Conf</Filter>
+    </ClCompile>
+    <ClCompile Include="LcdIoTask.cpp">
+      <Filter>Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="LcdIo.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\LCD\LiquidCrystal_I2C.cpp">
+      <Filter>libs\lcd</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonTask.cpp">
+      <Filter>Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="BarometerTask.cpp">
+      <Filter>Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerTask.cpp">
+      <Filter>Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="BatteryTask.cpp">
+      <Filter>Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStorage.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
